@@ -11,7 +11,7 @@ export class Dashboard extends React.Component {
   render() {
     return (
       <div className="Dashboard">
-        <h1>Welcome!</h1>
+        <h1>Welcome! Success Login</h1>
         <Button onClick={this.disconnect} block bsSize="large" type="submit">
           Se déconnecter
         </Button>
