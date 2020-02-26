@@ -4,6 +4,8 @@ const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 
 //Connexion à la base de donnée
+mongoose.set("useCreateIndex",true);
+mongoose.set("useUnifiedTopology",true);
 mongoose
   .connect("mongodb://localhost/db")
   .then(() => {
